@@ -1,0 +1,9 @@
+<div class="center">
+    <ul>
+        <li *ngFor="let item of list">
+           
+            {{item.task}}
+            <button (click)="deleteItem(item.task)">Delete</button>
+        </li>
+    </ul>
+</div>
